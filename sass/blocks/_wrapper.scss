@@ -1,0 +1,117 @@
+.wrapper{
+  .box{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .hr{
+    width: 48%;
+    border: 1px solid cadetblue;
+    height: 1px;
+    background-color: cadetblue;
+    display: inline-block;
+  }
+  &__heading{
+   color: cadetblue;
+font-size: 40px;
+  }
+  &__meassage--text{
+    font-size: 18px;
+  }
+  &__text{
+    color: cadetblue;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    
+  }
+  &__message{
+    width: 400px;
+    height: 70px;
+   background-color: lightblue;
+   position: relative;
+   padding: 15px;
+  }
+  &__message::before{
+    border: 10px solid lightblue;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:-18px;
+    content: "";
+  }
+  &__text--2 {
+    color: bisque;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+  &__message--2 {
+    width: 400px;
+    height: 70px;
+   background-color: bisque;
+   position: relative;
+   padding: 15px;
+      
+  }
+  &__meassage--text-2{
+    font-size: 18px;
+  }
+  &__message--2::before{
+    border: 10px solid bisque;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right:-18px;
+    content: "";
+  }
+  &__right--box{
+    float: right;
+    margin-bottom: 150px;
+  }
+  &__text--3 {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 200px;
+  }
+  &__message--3 {
+    width: 150px;
+    height: 70px;
+   background-color: gray;
+   position: relative;
+   padding: 15px;
+  }
+  &__message__text--3{
+   font-size: 20px;
+   text-align: center;
+  }
+  &__message--3::before{
+    border: 10px solid gray;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:-18px;
+    content: "";
+  }
+  &__text--box{
+    float: right;
+    
+  }
+  &__message--4 {
+    width: 400px;
+    height: 70px;
+   background-color:crimson;
+   position: relative;
+   padding: 15px;
+  }
+    &__meassage--text-4 {
+      font-size: 18px;
+    }
+}

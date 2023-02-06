@@ -1,0 +1,23 @@
+.footer{
+  margin-top: 150px;
+  padding: 30px 0;
+  &__inner {
+  }
+  .hr {
+    margin-bottom: 20px;
+  }
+  &__input{
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    width: 300px;
+  }
+  .footer__btn {
+    border: none;
+    background-color:transparent;
+    color: cornflowerblue;
+    font-size: 20px;
+    float: right;
+    letter-spacing: 2px;
+  }
+}

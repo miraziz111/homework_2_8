@@ -1,0 +1,33 @@
+.header{
+  background-color: rgb(0, 166, 255);
+  &__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+
+  }
+  &__box{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+  }
+  &__img{
+    width: 15px;
+    height: 15px;
+  }
+  &__heading{
+    color: white;
+  }
+  &__pic{
+    width: 25px;
+    height: 25px;
+  }
+  &__pic:hover{
+    width: 40px;
+    height: 40px;
+   
+  }
+  
+
+}
